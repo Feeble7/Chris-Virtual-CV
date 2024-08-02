@@ -18,3 +18,19 @@
     font-family: "Times New Roman", Times, serif;
 }
 
+.sidenav {
+    height: 100%;
+    max-width: 199px;
+    min-width: 199px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px
+}
+
+.main{
+    margin-left: 200px;
+    background-color: white;
+}

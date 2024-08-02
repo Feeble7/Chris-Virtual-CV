@@ -1,126 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Chris Kellerman CV</title>   
+    <title>Chris Kellerman CV</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="css/styles.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <!--Container for entire CV-->
-    <div class="container">
-        <div class="row justify-content-around">
-            <!--left Sude of Virtual CV-->
-            <div class="col-4">
-                <div class="container">
-                    <div class="row">
-                        <p style="text-align: left; padding: 8px">
-                            <img style="max-width: 100px; max-height: 200px" src="ChrisPhotoReal.jpg" class="rounded" 
-                                 alt="Chris Kellerman"
-                            >
-                        </p>
+    <!--NavBar-->
+    <div class="sidenav" style="background: darkgray">
+        <div style="margin: auto; width: 110px; position: relative">
+            <p style="text-align: left; padding: 8px">
+                <img style="max-width: 100px; max-height: 200px" src="ChrisPhotoReal.jpg" class="rounded"
+                    alt="Chris Kellerman">
+            </p>
+
+            <h3>Contents</h3>
+
+            <!--Links to allow to go to part of document where related section is-->
+            <ul class="list-group-item">
+                <li class="list-group-item"><a href="#about me">About me </a></li>
+                <li class="list-group-item"><a href="#projects">Projects</a></li>
+                <li class="list-group-item"><a href="#skills">Skills</a></li>
+                <li class="list-group-item"><a href="#languages">Languages</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--Right side of Virtual CV-->
+    <div class="main">
+        <div class="col-8">
+
+            <h2>Chris Kellerman</h2>
+            <h3>Aspiring Developer | NWU Student</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="mailto:chris.kellerman@gmail.com">chris.kellerman@gmail.com</a>
                     </div>
-                    <div class="row">
-                    </div>
-                </div>
-    
-                <h3>Contents</h3>
-                
-                <!--Links to allow to go to part of document where related section is-->
-                <ul class="list-group-item">
-                    <li class="list-group-item"><a href="#about me">About me </a></li>
-                    <li class="list-group-item"><a href="#projects">Projects</a></li>
-                    <li class="list-group-item"><a href="#skills">Skills</a></li>
-                    <li class="list-group-item"><a href="#languages">Languages</a></li>
-                </ul>
-
-                <div class="sectionSeparator"></div>
-
-                <h3>More Info<h3>
-                
-            </div>
-    
-        <!--Righht side of Virtual CV-->
-            <div class="col-8">
-                <h2>Chris Kellerman</h2>
-                <h3>Aspiring Developer | NWU Student</h3>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <a href="mailto:chris.kellerman@gmail.com">chris.kellerman@gmail.com</a>
-                        </div>
-                        <div class="col" style="text-align: center">(081) 444-5556</div>
-                        <div class="col" style="text-align: right">Cape Town</div>
-                    </div>
-                </div>
-                <div class="sectionSeparator"></div>
-    
-                <div class="sectionHeader" id="about me">
-                    About me 
-                </div>
-                <!--About me Content Section-->
-                <p class="cvContent">I am currently a 3rd-year BSc IT student student at NWU, with a passion for learning. I am a fast learner with strong communication skills, with experience collaborating with a group for projects. I am proficient in programming languages such as Java, C# and Python. I am highly motivated to learn new skills in my field for the purpose of making great contributions to my working environment.</p>
-                <div class="sectionSeparator"></div>
-
-    
-                <div class="sectionHeader" id="projects">
-                    Projects
-
-                </div>
-                <!--Projects Content Section-->
-                <p class="cvContent"><b>Spa Information System</b></p>
-                <p class="cvContent"><b>Mar, 2023-Nov,2023</b></p>
-                <p class="cvContent">This was a group project in which me and 6 other members had to collaborate to build a information system. We were required to do the full system development process from the design to the implementation of the system.</p>
-                <p class="cvContent">The system was built in C#(.Net framework) with Visual Studio Community IDE, along with using SSMS for managing our SQL infrastructure. We used Github to facilitate collaboration and to document the implementation of the Spa System</p>
-                <p class="cvContent">The project requirements included functionality such as Maintaining Entities and various other reporting features which we were able to fully implement. Also included full GUI design for each of the functionalities and features. Link to Github repository below:</p>
-                <a href="https://github.com/AJLaubscher/SpaSystem">Spa System Repository</a>
-                <div class="sectionSeparator"></div>
-    
-                <div class="sectionHeader" id="skills">
-                    Skills
-                </div>
-                <!--Divide skills sections in to 2 columns each taking 6 of 12 columns-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-6">
-                            <ul class="cvContent">
-                                <li>Java</li>
-                                <li>C#</li>
-                                <li>Python</li>
-                                <li>UML</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-6">
-                            <ul class="cvContent">
-                                <li>SQL</li>
-                                <li>Database</li>
-                                <li>Communication</li>
-                                <li>Github</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div class="sectionSeparator"></div>
-                
-                <!--Languages Section-->
-                <div class="sectionHeader" id="languages">
-                    Languages
-                </div>
-                
-                <div class="cvContent">
-                    <p>Afrikaans(Fluent)</p>
-
-                    <p>English(Fluent)</p>
+                    <div class="col" style="text-align: center">(081) 444-5556</div>
+                    <div class="col" style="text-align: right">Cape Town</div>
                 </div>
             </div>
-    
+            <div class="sectionSeparator"></div>
+
+            <div class="sectionHeader" id="about me">
+                About me
+            </div>
+            <!--About me Content Section-->
+            <p class="cvContent">I am currently a 3rd-year BSc IT student student at NWU, with a passion for
+                learning. I am a fast learner with strong communication skills, with experience collaborating with a
+                group for projects. I am proficient in programming languages such as Java, C# and Python. I am
+                highly motivated to learn new skills in my field for the purpose of making great contributions to my
+                working environment.</p>
+            <div class="sectionSeparator"></div>
+
+
+            <div class="sectionHeader" id="projects">
+                Projects
+
+            </div>
+            <!--Projects Content Section-->
+            <p class="cvContent"><b>Spa Information System</b></p>
+            <p class="cvContent"><b>Mar, 2023-Nov,2023</b></p>
+            <p class="cvContent">This was a group project in which me and 6 other members had to collaborate to
+                build a information system. We were required to do the full system development process from the
+                design to the implementation of the system.</p>
+            <p class="cvContent">The system was built in C#(.Net framework) with Visual Studio Community IDE, along
+                with using SSMS for managing our SQL infrastructure. We used Github to facilitate collaboration and
+                to document the implementation of the Spa System</p>
+            <p class="cvContent">The project requirements included functionality such as Maintaining Entities and
+                various other reporting features which we were able to fully implement. Also included full GUI
+                design for each of the functionalities and features. Link to Github repository below:</p>
+            <a href="https://github.com/AJLaubscher/SpaSystem">Spa System Repository</a>
+            <div class="sectionSeparator"></div>
+
+            <div class="sectionHeader" id="skills">
+                Skills
+            </div>
+            <!--Divide skills sections in to 2 columns each taking 6 of 12 columns-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="cvContent">
+                            <li>Java</li>
+                            <li>C#</li>
+                            <li>Python</li>
+                            <li>UML</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6">
+                        <ul class="cvContent">
+                            <li>SQL</li>
+                            <li>Database</li>
+                            <li>Communication</li>
+                            <li>Github</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sectionSeparator"></div>
+
+            <!--Languages Section-->
+            <div class="sectionHeader" id="languages">
+                Languages
+            </div>
+
+            <div class="cvContent">
+                <p>Afrikaans(Fluent)</p>
+
+                <p>English(Fluent)</p>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
