@@ -3,11 +3,13 @@
 Virtual CV
 
 For this project on the HTML side I have made use of a bootstrap stylesheet to improve the layout of my cv - structuring the CV in rows and columns IE --> 
-<!--<div class="Row">
-        <div class="col">
+```
+<div class="Row">
+     <div class="col">
         
-        </div>
-    </div>-->
+     </div>
+</div>
+```
 Bootstrap divides one container into a total of 12 columns across, when lookings at the code above, see index.html code to see how it was implemented it.
 
 Along with that I have also added code for a side navigation bar that stays fixed as one scrolls through the CV. 
@@ -24,8 +26,9 @@ For the CSS I have added a lot of code to help better structure the Page, aswell
 That and I have included styles for the navbar and have changed the fonts to Times New Roman to give the main class page a better look.
 
 In the navbar i have also put in links to revelant pages, such as my LinkedIn, a pdf of my Resume/CV, my github repository as well as a mailto feature :
-    <!--<span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-    <span><b><a href="mailto:kellerman.chri@gmail.com">Gmail</a><b></span>-->
-
+```
+<span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+<span><b><a href="mailto:kellerman.chri@gmail.com">Gmail</a><b></span>
+```
 
 In the Code above is also an example of how the Font Awesome stylsheet was implemented to give icons to each of the neccesary links/elements in my navigation bar.
