@@ -30,16 +30,23 @@
     padding-top: 20px;
 }
 
+.sidenav img {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
+}
+
 .main{
     margin-left: 200px;
     background-color: white;
     padding: 20px;
 }
 
+
+
 .navLinks a{
     color: white;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
+    padding-bottom: 14px;
 }
 
 .navLinks a:hover {
@@ -48,8 +55,26 @@
 
 .contentLinks a {
     color: white;
+    padding-bottom: 20px;
 }
 
 .contentLinks a:hover {
     color: rgb(19, 219, 19);
+}
+
+.contactInfo a {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.contactInfo cell {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.contactInfo a:hover {
+    color: rgb(22, 224, 22);;
 }
