@@ -1,3 +1,4 @@
+//On hover javascript function
 function changeImage(x,image)
 {
     if(x==1)
