@@ -78,3 +78,8 @@
 .contactInfo a:hover {
     color: rgb(22, 224, 22);;
 }
+
+.responsive {
+    max-width: 100px;
+    max-height: 200px;
+}
