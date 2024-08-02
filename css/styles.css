@@ -1,6 +1,8 @@
+
 .sectionHeader{
     text-transform: uppercase;
     font-weight: bold;
+    font-style: italic;
     font-size: 16px;
     border-bottom: cadetblue 1px solid;
     padding-bottom: 8px;
